@@ -1,0 +1,14 @@
+class bugatti:
+    fuelconsumption = 13
+    tankcapacity = 58
+
+class ferrari:
+    fuelconsumption = 11
+    tankcapacity = 45
+
+
+traveldistance = round(bugatti.tankcapacity/bugatti.fuelconsumption*100,2)
+print("distance the bugatti traveled =", (traveldistance) ,"km on a full tank")
+
+traveldistance = round(ferrari.tankcapacity/ferrari.fuelconsumption*100,2 )
+print("distance the ferrari traveled =", (traveldistance) , "km on a full tank")
